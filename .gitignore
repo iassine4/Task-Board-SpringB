@@ -1,0 +1,115 @@
+# =========================
+# JAVA / SPRING BOOT
+# =========================
+
+# Fichiers compilés Java
+*.class
+
+# Logs
+*.log
+
+# Fichiers temporaires Java
+*.ctxt
+.mtj.tmp/
+
+# Archives/packages générés
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# =========================
+# MAVEN
+# =========================
+
+# Dossier généré par Maven
+target/
+
+# Fichiers de secours Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+
+# =========================
+# SPRING BOOT - CONFIG LOCALE
+# =========================
+
+# Variables d'environnement locales
+.env
+
+# Configurations locales à ne pas versionner
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Variantes locales par convention
+*.properties.local
+*.yml.local
+*.yaml.local
+
+
+# =========================
+# IDE - INTELLIJ IDEA
+# =========================
+
+# Fichiers utilisateur IntelliJ
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Fichiers générés IntelliJ
+.idea/**/contentModel.xml
+
+# Config spécifique AWS dans IntelliJ
+.idea/**/aws.xml
+
+# Fichiers divers IntelliJ
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
+
+# Cache de plugins parfois généré
+out/
+
+
+# =========================
+# IDE - ECLIPSE / STS
+# =========================
+
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+
+# =========================
+# IDE - VS CODE
+# =========================
+
+.vscode/
+
+
+# =========================
+# OS - MACOS
+# =========================
+
+.DS_Store
+
+
+# =========================
+# TESTS / RAPPORTS
+# =========================
+
+# Rapports de couverture / qualité
+coverage/
+sonar-report/
